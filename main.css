@@ -1,0 +1,133 @@
+body{
+  margin:0;
+}
+#wrapper{
+  width:800px;
+}
+#header{
+  height:75px;
+  background: lightgray;
+}
+#sidebar{
+  width:25%;
+  height: 450px;
+  float:left;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+#sidebar img{
+  border-radius: 20px;
+}
+.threetabs ul li{
+  display: inline;
+  float:left;
+  padding: 40px;
+  list-style: none;
+}
+#sidebar h2{
+  font-weight:lighter;
+  margin: 10px;
+}
+.join-date{
+  margin-left: 20px;
+  font-weight:lighter;
+}
+#content{
+  margin-left: 250px;
+  width:65%;
+  padding-left: 50px;
+}
+#footer{
+  height: 50px;
+  clear:both;
+}
+.head-nav{
+  background: lightgray;
+}
+.head-nav ul{
+  padding-left: 300px;
+}
+.head-nav ul li,{
+  list-style: none;
+  display:block;
+  float:right;
+  padding-left: 300px;
+}
+/* do not change this, it will affect your head nav*/
+.head-nav li{
+  float:left;
+  list-style: none;
+  display: block;
+  margin-left: 50px;
+}
+.head-nav ul li a:hover{
+  color:blue;
+}
+.head-nav img{
+  padding-left: 300px;
+}
+.search{
+margin-left: 25px;
+float:left;
+}
+.pop-repo{
+  color:blue;
+  height:50px;
+  background: lightgray;
+  margin-top: 100px;
+  box-sizing: border-box;
+}
+.time{
+  color:blue;
+  height:50px;
+  box-sizing: border-box;
+ }
+.demo{
+  color:blue;
+  height:50px;
+  box-sizing: border-box;
+}
+.map{
+  color:blue;
+  height:50px;
+  box-sizing: border-box;
+}
+.mix{
+  color:blue;
+  height:50px;
+}
+.octocats{
+  color:blue;
+  height:50px;
+}
+.pop-repo a, .time a, .demo a, .map a, .mix a, .octocats a{
+  color:blue;
+  font-weight: bold;
+  list-style:none;
+
+}
+.followers{
+  width:31%;
+  float:left;
+  text-align: center;
+  color:blue;
+  font-size: 20px;
+}
+.starred{
+  width:31%;
+  float:right;
+  text-align: center;
+  color:blue;
+  font-size: 20px;
+}
+.following{
+  width:31%;
+  float:right;
+  text-align: center;
+  color:blue;
+  font-size: 20px;
+}
+.contributions{
+  margin-left: 10px;
+  width:65%;
+}
